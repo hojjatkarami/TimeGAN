@@ -1,5 +1,10 @@
 # Codebase for "Time-series Generative Adversarial Networks (TimeGAN)"
 
+```
+install tf 1.15.0
+conda install tensorflow-estimator=1.15.1
+```
+
 Authors: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar
 
 Reference: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar,
