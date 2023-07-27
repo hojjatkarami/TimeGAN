@@ -2,9 +2,19 @@
 
 ```
 install tf 1.15.0
+
+[https://github.com/TachibanaYoshino/AnimeGANv2/issues/48]
 conda install tensorflow-estimator=1.15.1
 ```
+[https://fmorenovr.medium.com/install-conda-and-set-up-a-tensorflow-1-15-cuda-10-0-environment-on-ubuntu-windows-2a18097e6a98
 
+
+conda install -c conda-forge tensorflow-gpu=1.15
+scikit-learn>=0.21.3
+conda install matplotlib
+
+
+]
 Authors: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar
 
 Reference: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar,

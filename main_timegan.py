@@ -85,6 +85,7 @@ def main(args):
 
     with open('./data/generated_data_{}.pkl'.format(args.data_name), 'wb') as f:
         pickle.dump(generated_data, f)
+        print('Saved generated data to ./data/generated_data_{}.pkl'.format(args.data_name))
     # Performance metrics
     # Output initialization
     metric_results = dict()
